@@ -1,0 +1,31 @@
+html {
+	background-color: ThreeDLightShadow;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffded;
+}
+header {
+	text-align: center;
+}
+
+header h2 {
+	font-size: 150%;
+	font-family: Gill Sans Extrabold;
+	text-align: center;
+}
+header h3 {
+	font-size: 80%;
+	color: red;
+	text-align: center;
+}
+footer p {
+	text-align: center;
+	padding: 1em 0;
+	background-color: #931420;
+	font-family: italic;
+}

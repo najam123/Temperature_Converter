@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>Unit Converters</title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<link rel="stylesheet" href="converter.css" type="text/css">
+<script src="unit converter.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" src="cordova.js"></script>
+<header>
+<h2>Temperature Converter</h2>
+<p><h3>Type a value in the Fahrenheit field to convert the value to Celcius: </h3></p>
+<p>
+  <label>&#8457;</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureFahrenheitConverter(this.value)" onchange="temperatureFahrenheitConverter(this.value)">
+</p>
+<p>Celcius: <span id="outputCelcius"></span></p>
+
+<p><h3>Type a value in the Celcius field to convert the value to Fahrenheit:</h3></p>
+<p>
+  <label>&#8451;</label>
+  <input id="inputCelcius" type="number" placeholder="Celcius" oninput="temperatureCelciusConverter(this.value)" onchange="temperatureCelciusConverter(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFarenheit"></span></p>
+</body>
+</header>
+<footer>
+<p>&copy; 2017, Najam Ahmad</p>
+</footer>
+</html>
